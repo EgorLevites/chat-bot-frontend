@@ -1,0 +1,72 @@
+/* public/styles.css */
+
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#chat {
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    margin: 0 auto 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#client-count {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.input-group {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#send {
+    cursor: pointer;
+}
+.user {
+    color: blue;
+    font-weight: bold;
+    text-align: right; /* Сообщения пользователя выравниваются вправо */
+    margin: 10px;
+}
+
+.bot {
+    color: green;
+    font-weight: bold;
+    text-align: left; /* Сообщения бота выравниваются влево */
+    margin: 10px;
+}
+
+#chat p {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    margin-bottom: 5px;
+}
+
+.user {
+    background-color: #d1ecf1;
+}
+
+.bot {
+    background-color: #d4edda;
+}
+.other {
+    color: orange;
+    font-weight: bold;
+    text-align: left;
+}
